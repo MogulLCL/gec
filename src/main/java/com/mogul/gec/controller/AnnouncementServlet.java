@@ -29,6 +29,7 @@ public class AnnouncementServlet extends HttpServlet {
             delete(req,resp);
         }else if(url.equals("/Announcement/get")){
             get(req,resp);
+
         }
     }
 
